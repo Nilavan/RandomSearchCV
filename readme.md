@@ -10,10 +10,10 @@ Here we implement random search cross validation (Similar to sklearn's Randomize
 
 ## Example
 
-Say we have data as shown below<br>
+Say we have data as shown below<br><br>
 
-<p align="center"><img src="assets/data.png" width=70%/></p><br>
+<p align="center"><img src="assets/data.png" width=40%/></p><br>
 
-We set the range for k in knn as 1 to 50 and try 3 folds. The function takes the data and splits it into 3 folds. After selecting 10 random values of k within the range, we train the model on two groups and cross validate on the other repeating this so each group is used as cross validation data. This is done for each value of k. Here we can see that the model accuracy improves gradually for each value of k and the classifier does a fairly decent job in separating the points.<br>
+We set the range for k in knn as 1 to 50 and try 3 folds. The function takes the data and splits it into 3 folds. After selecting 10 random values of k within the range, we train the model on two groups and cross validate on the other repeating this so each group is used as cross validation data. This is done for each value of k. Here we can see that the model accuracy improves gradually for each value of k and the classifier does a fairly decent job in separating the points.<br><br>
 
-<p align="center"><img src="assets/tuning.png" width=70%/><img src="assets/final.png" width=70%/></p><br>
+<p align="center"><img src="assets/tuning.png" width=40%/> <img src="assets/final.png" width=40%/></p><br>
